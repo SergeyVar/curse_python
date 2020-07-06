@@ -1,5 +1,5 @@
 # X = int(input())
-# Y= X//60
+# Y= X//60 # часы без остатка минут
 # Z=X-Y*60
 # print(Y)
 # print(Z)
