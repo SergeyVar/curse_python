@@ -35,12 +35,35 @@
 # How many platforms are needed ?
 # How many empty seats are left on the platform ?
 
-a = int(input())
-b = a // 65
-p = b // 6
-l = a - 65 * b
-s = ((a-l)/65-(6*p))
-print(l)
-print(p)
-print(s)
+# a = int(input())
+# b = a // 65
+# p = b // 6
+# l = a - 65 * b
+# s = ((a-l)/65-(6*p))
+# print(l)
+# print(p)
+# print(s)
+
+# Y = int(input())
+#
+# D1 = Y * 365
+# W = D1//7
+# D = D1 - 7*W
+# print(D)
+# print(W)
+
+
+#x1, x2, x3 = False, True, False
+#print(not x1 or x2 and  x3)
+#Приоритет no, and, or
+
+# ((a and b) or ((not a) and (not b)))
+
+#x=5
+#y=10
+#print(y > x * x or y >= 2 * x and x < y)
+
+a = True
+b = False
+print(a and b or not a and not b)   #
 
