@@ -20,11 +20,27 @@
 # print(H)
 # print(M)
 
-X = int(input())
-H = int(input())
-M = int(input())
-M = X + H * 60 + M           # приобразовываем всё в минуты
-H = M//60                    # из полученного получаем часы
-M = M - H*60                 # получаем оставшиеся минуты
-print(H)
-print(M)
+# X = int(input())
+# H = int(input())
+# M = int(input())
+# M = X + H * 60 + M           # приобразовываем всё в минуты
+# H = M//60                    # из полученного получаем часы
+# M = M - H*60                 # получаем оставшиеся минуты
+# print(H)
+# print(M)
+
+# amount = int(input())
+# barrel = 65 l
+# platform = 6 barrel
+# How many platforms are needed ?
+# How many empty seats are left on the platform ?
+
+a = int(input())
+b = a // 65
+p = b // 6
+l = a - 65 * b
+s = ((a-l)/65-(6*p))
+print(l)
+print(p)
+print(s)
+
