@@ -44,14 +44,6 @@
 # print(p)
 # print(s)
 
-# Y = int(input())
-#
-# D1 = Y * 365
-# W = D1//7
-# D = D1 - 7*W
-# print(D)
-# print(W)
-
 
 #x1, x2, x3 = False, True, False
 #print(not x1 or x2 and  x3)
@@ -63,7 +55,7 @@
 #y=10
 #print(y > x * x or y >= 2 * x and x < y)
 
-a = True
-b = False
-print(a and b or not a and not b)   #
+#a = True
+#b = False
+#print(a and b or not a and not b)   #
 
